@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#1877F2",
+        secondary: "#e7fbff",
+        warda: "#1f2937"
+      },
+      spacing: {
+        '24': '96px',
       },
     },
   },

@@ -24,12 +24,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="en" scroll-behavior = "smooth"
+    
+    >
+            
+            <body 
+            className="bg-cover bg-center bg-no-repeat" 
+            style={
+              { backgroundImage: 'url(./images/background.jpg)' }
+              }
+              >
+
+        
+        <script src="https://kit.fontawesome.com/7ed0d034af.js"></script>
+          
+          {children}
       </body>
-    </html>
+    </html> 
   );
 }
